@@ -1,0 +1,36 @@
+.skill {
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: GothicBold;
+
+  margin-right: 0.5rem;
+  transition: 0.2s;
+}
+.skill:hover {
+  transform: scale(1.1);
+}
+.skill span {
+  margin-left: 0.3rem;
+  color: white;
+  font-size: 0.7rem;
+}
+.react {
+  background-color: #25d9fd;
+}
+.javascript {
+  background-color: #f0da5b;
+}
+.typescript {
+  background-color: #367ac4;
+}
+.postcss {
+  background-color: #db3c1d;
+}
+.css {
+  background-color: #2a53e1;
+}
+.html {
+  background-color: #e24e30;
+}

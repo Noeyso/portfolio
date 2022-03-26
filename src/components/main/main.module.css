@@ -1,0 +1,51 @@
+.container {
+  background-color: yellow;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../common/image/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #fcfcfc;
+}
+
+.box {
+  padding-top: 16rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container span {
+  font-weight: 900;
+  font-size: 3rem;
+  font-family: GothicBold;
+}
+.txt {
+  display: block;
+  margin-top: 1.5rem;
+}
+.txt:nth-child(3) {
+  margin-top: 2rem;
+  margin-left: 19rem;
+}
+.name {
+  background: linear-gradient(
+    to right top,
+    #009cf3,
+    #00bdfc,
+    #00d6d3,
+    #00e684,
+    #a8eb12
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frontend {
+  margin-left: 5rem;
+  display: inline;
+}
+.emoji {
+  width: 16rem;
+  margin-right: 10rem;
+  align-self: end;
+}

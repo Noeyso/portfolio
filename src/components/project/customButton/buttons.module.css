@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+.button {
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+  border: 1px solid #aad9fd;
+}
+.button:hover {
+  background-color: #aad9fd;
+}
+img {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
