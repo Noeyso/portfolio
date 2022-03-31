@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a0640182.css",
+    "main.js": "/portfolio/static/js/main.00033a5b.js",
+    "static/media/clone-ohou.gif": "/portfolio/static/media/clone-ohou.b278ce7165e900305b7e.gif",
+    "static/media/HiEmoji.gif": "/portfolio/static/media/HiEmoji.6b2cefc257aa95a3ebb6.gif",
+    "static/media/GoodEmoji.gif": "/portfolio/static/media/GoodEmoji.20c9fbdc1238d8ce3a6b.gif",
+    "static/media/WorkEmoji.gif": "/portfolio/static/media/WorkEmoji.411c1ee993479f6ead5e.gif",
+    "static/media/GimpoGothicBold.otf": "/portfolio/static/media/GimpoGothicBold.1fbd47a89385323eb050.otf",
+    "static/media/Emoji.gif": "/portfolio/static/media/Emoji.202cbceebe1ff1baa43c.gif",
+    "static/media/GimpoGothicRegular.otf": "/portfolio/static/media/GimpoGothicRegular.d0cd48012c9ac0d8faaa.otf",
+    "static/media/reading-helper.png": "/portfolio/static/media/reading-helper.209244d7b8f8b0d95d63.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.6e42b2a035b28f240021.png",
+    "static/media/python.png": "/portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.22ade27d533c69e7204a.png",
+    "static/media/git.png": "/portfolio/static/media/git.05525cd9027955dbe054.png",
+    "static/media/java.png": "/portfolio/static/media/java.70cacef075f9030d44c1.png",
+    "static/media/node-js.png": "/portfolio/static/media/node-js.bc4b43cd5f20ba305059.png",
+    "static/media/react.png": "/portfolio/static/media/react.c2861c4dff64d52adf93.png",
+    "static/media/bg.png": "/portfolio/static/media/bg.ccae613a22d0219e8d07.png",
+    "static/media/photoshop.png": "/portfolio/static/media/photoshop.047cad202c4a70579aa2.png",
+    "index.html": "/portfolio/index.html",
+    "main.a0640182.css.map": "/portfolio/static/css/main.a0640182.css.map",
+    "main.00033a5b.js.map": "/portfolio/static/js/main.00033a5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0640182.css",
+    "static/js/main.00033a5b.js"
+  ]
+}
