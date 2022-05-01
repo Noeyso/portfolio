@@ -6,7 +6,7 @@ import Emoji from "../../common/image/Emoji.gif";
 
 function Contact() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="contact">
       <h2>Contact Me</h2>
 
       <div className={styles.info}>

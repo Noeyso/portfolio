@@ -11,13 +11,15 @@ function Buttons({ demoUrl, codeUrl }: Props) {
   return (
     <div className={styles.container}>
       <button
-        className={styles.button}
+        className={demoUrl !== "" ? styles.button : styles.button_hide}
+        style={{ width: codeUrl === "" ? `100%` : "50%" }}
         onClick={() => window.open(demoUrl, "_blank")}
       >
         Demo <IoIosArrowForward />
       </button>
       <button
-        className={styles.button}
+        className={codeUrl !== "" ? styles.button : styles.button_hide}
+        style={{ width: demoUrl === "" ? `100%` : "50%" }}
         onClick={() => window.open(codeUrl, "_blank")}
       >
         <SiGithub />

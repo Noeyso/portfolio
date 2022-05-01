@@ -14,11 +14,9 @@ import Python from "../../common/image/logo/python.png";
 import Git from "../../common/image/logo/git.png";
 import Photoshop from "../../common/image/logo/photoshop.png";
 
-import Swim from "../../common/image/swim.png";
-
 function Skill() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="skills">
       <div className={styles.custom_shape}>
         <svg
           data-name="Layer 1"

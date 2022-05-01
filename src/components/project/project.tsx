@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./project.module.css";
 import Ohou from "../../common/image/project/clone-ohou.gif";
+import ReadingHelper from "../../common/image/project/reading-helper.png";
 import Buttons from "./customButton/buttons";
 
 function Project() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="projects">
       <div className={styles.custom_shape}>
         <svg
           data-name="Layer 1"
@@ -43,7 +44,7 @@ function Project() {
               </span>
             </div>
             <Buttons
-              demoUrl="https://623889f17366675cb1297532--clone-ohou.netlify.app"
+              demoUrl=" https://clone-ohou.netlify.app"
               codeUrl="https://github.com/Noeyso/ohou-cloneCoding"
             />
           </li>
@@ -77,6 +78,21 @@ function Project() {
             <Buttons
               demoUrl=""
               codeUrl="https://github.com/Noeyso/ReadingChatbot"
+            />
+          </li>
+          <li>
+            <div className={styles.img_container}>
+              <img src={ReadingHelper} alt="" />
+            </div>
+            <div className={styles.project_detail}>
+              <h3>독서비서-웹버전</h3>
+              <span>
+                독서비서 어플을 웹사이트 버전으로 변경한 프로젝트입니다.
+              </span>
+            </div>
+            <Buttons
+              demoUrl=""
+              codeUrl="https://github.com/Noeyso/ReadingHelper"
             />
           </li>
           <li>
@@ -116,7 +132,7 @@ function Project() {
               </span>
             </div>
             <Buttons
-              demoUrl="https://github.com/Noeyso/MMMMeeting"
+              demoUrl=" https://www.youtube.com/watch?v=OMMlHcFzjpcg"
               codeUrl="https://github.com/Noeyso/MMMMeeting"
             />
           </li>
@@ -128,14 +144,14 @@ function Project() {
               />
             </div>
             <div className={styles.project_detail}>
-              <h3>오늘</h3>
+              <h3>일기,오늘</h3>
               <span>
                 하루를 기록할 수 있는 일기 사이트입니다. 글,사진,기분,날씨를
                 추가하고 삭제할 수 있습니다.
               </span>
             </div>
             <Buttons
-              demoUrl="https://github.com/Noeyso/my_diary"
+              demoUrl=" https://noeyso.github.io/my_diary/"
               codeUrl="https://github.com/Noeyso/my_diary"
             />
           </li>

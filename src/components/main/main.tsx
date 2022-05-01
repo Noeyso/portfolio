@@ -6,7 +6,7 @@ import Bg from "../../common/image/bg.png";
 function Main() {
   const [wavyText, setWavyText] = useState(["안", "녕", "하", "세", "요", "!"]);
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="main">
       <div className={styles.box}>
         <div>
           <div className={styles.waviy}>

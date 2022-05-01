@@ -53,3 +53,9 @@
 .emoji img {
   width: 15rem;
 }
+
+@media screen and (max-width: 1250px) {
+  .emoji {
+    display: none;
+  }
+}

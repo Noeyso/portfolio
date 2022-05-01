@@ -6,6 +6,16 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: #fcfcfc;
+  animation: 2s fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .box {
@@ -48,4 +58,11 @@
   width: 16rem;
   margin-right: 10rem;
   align-self: end;
+}
+
+@media screen and (max-width: 1024px) {
+  .emoji {
+    width: 10rem;
+    margin-right: 5rem;
+  }
 }

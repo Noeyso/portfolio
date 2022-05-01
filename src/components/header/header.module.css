@@ -1,0 +1,20 @@
+@value makerDarkGrey from "../../common/color.css";
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  padding: 2rem 1rem;
+  z-index: 1000;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  transition: 1s all ease-in-out;
+}
+
+.container span {
+  margin-right: 3rem;
+  cursor: pointer;
+}
+.container span:hover {
+  font-weight: bold;
+}

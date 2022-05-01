@@ -7,9 +7,11 @@ import Project from "./components/project/project";
 import styles from "./app.module.css";
 import Footer from "./components/footer/footer";
 import Contact from "./components/contact/contact";
+import Header from "./components/header/header";
 function App() {
   return (
     <div>
+      <Header />
       <Main />
       <AboutMe />
       <Skill />

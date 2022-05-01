@@ -4,7 +4,7 @@ import WorkEmoji from "../../common/image/WorkEmoji.gif";
 import GoodEmoji from "../../common/image/GoodEmoji.gif";
 function AboutMe() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about">
       <div className={styles.custom_shape}>
         <svg
           data-name="Layer 1"
