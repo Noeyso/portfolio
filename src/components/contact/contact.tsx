@@ -26,9 +26,6 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className={styles.emoji}>
-        <img src={Emoji} alt="" />
-      </div>
     </section>
   );
 }

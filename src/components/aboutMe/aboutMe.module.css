@@ -6,6 +6,7 @@
   align-items: center;
   position: relative;
 }
+
 .box {
   height: 80vh;
   display: flex;
@@ -17,9 +18,8 @@
 h2 {
   font-size: 3rem;
 }
-h3 {
-}
-.txt {
+
+.desc {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,9 +27,12 @@ h3 {
 
 .content {
   width: 70%;
-  margin-left: 1rem;
-  font-size: 1.2rem;
+  margin-left: 2rem;
+  font-size: 1rem;
   line-height: 2rem;
+}
+.content h3 span {
+  background: linear-gradient(to top, #ffffff, transparent 50%);
 }
 .content span {
   font-family: GothicRegular;
@@ -43,28 +46,8 @@ h3 {
   height: 15vw;
   border-radius: 50%;
   background-color: #feeabb;
-  padding: 1rem;
+  padding: 0.3rem;
 }
 .emoji_container img {
-  width: 75%;
-}
-
-.custom_shape {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom_shape svg {
-  position: relative;
-  display: block;
-  width: calc(115% + 1.3px);
-  height: 90px;
-}
-
-.custom_shape .shape_fill {
-  fill: #fcfcfc;
+  width: 65%;
 }

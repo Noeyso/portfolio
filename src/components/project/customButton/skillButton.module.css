@@ -34,3 +34,25 @@
 .html {
   background-color: #e24e30;
 }
+.java {
+  background-color: #007396;
+}
+.firebase {
+  background-color: #ffca28;
+}
+.mysql {
+  background-color: #4479a1;
+}
+.android {
+  background-color: #3ddc84;
+}
+.postcss {
+  background-color: #dd3a0a;
+}
+.nodejs {
+  background-color: #339933;
+}
+
+.label {
+  margin: 0.3rem 0;
+}

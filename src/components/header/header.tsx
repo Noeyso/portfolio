@@ -12,6 +12,8 @@ function Header() {
   function updateScroll() {
     const wh = window.innerHeight;
     const y = window.scrollY;
+
+    //console.log(`y: ${y}`);
     if (y < 100) {
       setBg("transparent");
     } else if (y < wh) {
@@ -28,7 +30,6 @@ function Header() {
       }
     }
   }
-
   return (
     <section className={styles.container} style={{ background: bg }}>
       <nav>

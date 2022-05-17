@@ -1,12 +1,12 @@
 .container {
-  background-color: yellow;
   width: 100%;
-  height: 100vh;
   background-image: url("../../common/image/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: #fcfcfc;
   animation: 2s fadein;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes fadein {
@@ -19,8 +19,8 @@
 }
 
 .box {
-  padding-top: 16rem;
-  width: 100%;
+  padding: 14rem 0;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
 }
@@ -34,9 +34,14 @@
   display: block;
   margin-top: 1.5rem;
 }
+
+.txt:nth-child(2) {
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
 .txt:nth-child(3) {
   margin-top: 2rem;
-  margin-left: 19rem;
+  margin-left: 18rem;
 }
 .name {
   background: linear-gradient(
